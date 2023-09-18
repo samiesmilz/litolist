@@ -1,0 +1,150 @@
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  padding: 25px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: beige;
+}
+#title {
+  font-size: 120px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#cross-p {
+  padding: 5px 15px;
+  color: darkslateblue;
+  font-stretch: extra-expanded;
+}
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  background-color: wheat;
+  border-radius: 25px;
+  padding: 25px;
+}
+
+.lito-div {
+  border-style: dotted;
+  border-radius: 15px;
+  border-color: #7d3db983;
+  padding: 10px;
+}
+ol {
+  margin-right: 20px;
+}
+.lito-div h3 {
+  margin-left: 15px;
+}
+
+.lito-item {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 2fr auto auto;
+  padding: 5px;
+}
+.li {
+  margin: 5px;
+}
+
+li:hover button {
+  display: inline-block;
+}
+
+.lito-item:hover {
+  background-color: #7d3db90e;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: #7d3db91e;
+}
+
+.cross {
+  text-decoration: line-through;
+  color: dimgrey;
+}
+
+.edit {
+  background-color: rgb(1, 16, 18);
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  padding: 1px 10px;
+  font-weight: lighter;
+  display: none;
+}
+
+.save {
+  background-color: rgb(0, 150, 78);
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+  padding: 1px 10px;
+  display: none;
+}
+
+.delete {
+  background-color: darkkhaki;
+  color: aliceblue;
+  border-style: none;
+  border-radius: 10px;
+  width: 25px;
+  display: none;
+}
+.lito-form {
+  margin: 15px;
+  background-color: #7d3db982;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: small;
+}
+.input-box {
+  padding: 5px;
+  width: 200px;
+  border-radius: 10px;
+  border-color: #7d3db91e;
+}
+
+input:focus {
+  border: none;
+}
+.slogan-div {
+  align-self: center;
+  justify-content: center;
+}
+.add-button {
+  padding: 5px;
+  border-radius: 10px;
+  border-color: #7d3db91e;
+  font-size: small;
+}
+.slogan-div {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+  height: 150px;
+}
+.slogan {
+  align-self: center;
+  justify-content: center;
+  transition: all 1000ms;
+}
+.small {
+  transform: scale(0.7);
+  color: darkslateblue;
+  border-radius: 25px;
+  border-color: rgb(255, 255, 255);
+  background-color: #7d3db91e;
+  padding: 10px 25px;
+}
+
+.big {
+  transform: scale(2);
+  color: blueviolet;
+  border-radius: 25px;
+  border-style: dotted;
+  padding: 10px 25px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>LitoList</title>
+  </head>
+  <body>
+    <head>
+      <h1 id="title">Welcome To LitoList</h1>
+      <div class="slogan-div">
+        <h2 class="slogan big">Lito-list big champs!</h2>
+      </div>
+      <p id="cross-p">Cross your next item off the lito-list...</p>
+    </head>
+    <section>
+      <div class="timeline">
+        <div id="lito-day" class="lito-div">
+          <h3>On my list Today...</h3>
+          <ol id="day-list" class="litolist">
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+          </ol>
+          <form id="add-item" class="lito-form">
+            <label for="new-item">
+              New item:
+              <input
+                id="new-item"
+                class="input-box"
+                type="text"
+                name="new-item"
+                placeholder="Enter new item..."
+            /></label>
+            <button class="add-button">Add item</button>
+          </form>
+        </div>
+        <div id="lito-week" class="lito-div">
+          <h3>On my list this week...</h3>
+          <ol id="week-list" class="litolist">
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+          </ol>
+          <form id="add-item" class="lito-form">
+            <label for="new-item">
+              New item:
+              <input
+                id="new-item"
+                class="input-box"
+                type="text"
+                name="new-item"
+                placeholder="Enter new item..."
+            /></label>
+            <button class="add-button">Add item</button>
+          </form>
+        </div>
+        <div id="lito-year" class="lito-div">
+          <h3>On my list this year...</h3>
+          <ol id="year-list" class="litolist">
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+            <li>
+              <div class="lito-item">
+                <span>Item</span>
+                <button id="update" class="edit">edit</button>
+                <button class="delete" data-action="delete">-</button>
+              </div>
+            </li>
+          </ol>
+          <form id="add-item" class="lito-form">
+            <label for="new-item">
+              New item:
+              <input
+                id="new-item"
+                class="input-box"
+                type="text"
+                name="new-item"
+                placeholder="Enter new item..."
+            /></label>
+            <button class="add-button">Add item</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
